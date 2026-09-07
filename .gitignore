@@ -1,0 +1,53 @@
+# ==========================================
+# Python Virtual Environments
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Byte-compiled / Optimized / Cache files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Large Datasets (Avoid Git storage limits)
+# ==========================================
+dataset/
+
+# ==========================================
+# Heavy Pretrained & Trained Model Weights
+# (Files >100MB exceed GitHub's upload limit)
+# ==========================================
+models/**/*.keras
+models/**/*.h5
+models/*.keras
+models/*.h5
+*.keras
+*.h5
+
+# ==========================================
+# IDE & System Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Temporary / Scratch Files
+# ==========================================
+scratch/
+*.log
